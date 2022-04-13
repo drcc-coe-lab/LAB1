@@ -29,6 +29,10 @@ variable "region" {
   }
 }
 
+variable "env_advanced_options" {
+  type = bool
+  default = false
+} 
 #Enclosing Compartment
 variable "use_enclosing_compartment" {
   type        = bool
